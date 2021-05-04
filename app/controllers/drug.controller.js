@@ -1,5 +1,5 @@
 const db = require("../models");
-const Drug = db.models.drugs;
+const Drug = db.models.drug;
 const Op = db.Sequelize.Op;
 
 //Create a Drug
