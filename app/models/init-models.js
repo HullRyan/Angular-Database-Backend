@@ -50,6 +50,9 @@ function initModels(sequelize) {
   room.hasMany(stays, { as: "stays", foreignKey: "room_num"});
 
   cares.removeAttribute('id');
+  drug.removeAttribute('id');
+  room.removeAttribute('id');
+  stays.removeAttribute('id');
 
   return {
     cares,
